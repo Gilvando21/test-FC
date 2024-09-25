@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.141" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Validar credencias de login  senha inválidas" name="Validar credencias de login  senha inválidas - Example #1.1" time="18.723">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at web.support.Commons.validarTextoParcialmente(Commons.java:40)
+	at web.action.Action.validarMensagemFalha(Action.java:32)
+	at web.steps.Steps.valido_mensagem_de_erro(Steps.java:24)
+	at ✽.valido mensagem de erro "tentar novamente"(file:///C:/Users/marco/eclipse-workspace/test-automation-web/src/test/java/web/features/web.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Dado que o usuario acesse o site............................................passed
+Quando digitar login e senha invalido.......................................passed
+Então valido mensagem de erro "tentar novamente"............................failed
+]]></system-out>
+</testcase>
+</testsuite>
